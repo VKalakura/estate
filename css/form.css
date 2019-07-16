@@ -1,0 +1,105 @@
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    transform: translateZ(0);
+}
+
+.form_block {
+    width: 98%;
+    margin: 0 auto;
+    z-index: 99;
+    position: relative;
+    padding: 15px 0;
+}
+
+.form_wrap{
+    width: 90%;
+    max-width: 350px;
+    margin: 0 auto;
+    background-color: transparent;
+}
+.form_block input {
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.79);
+    background-color: #ffffff;
+    outline: none;
+    font-size: 16px;
+    margin: 0 auto 10px;
+    display: block;
+    width: 92%;
+    height: 50px;
+    font: 18px 'Arial', sans-serif;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 15px;
+    text-align: left;
+    border: none;
+}
+.form_block textarea {
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.79);
+    background-color: #ffffff;
+    border: none;
+    font: 16px 'Arial', sans-serif;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 15px;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 auto 10px;
+    display: block;
+    width: 92%;
+    height: 70px;
+    resize: none;
+    box-sizing: border-box;
+    padding-top: 6px;
+}
+.form_block button {
+    cursor: pointer;
+    outline: none;
+    display: block;
+    text-transform: uppercase;
+    font-family: 'Arial', serif;
+    text-decoration: none;
+    width: 92%;
+    height: 60px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+.btnh{
+  padding: 6px 24px;
+  display: block;
+}
+.btn, .form_block button{
+    color: #000;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.41);
+    background-color: #ffc600;
+}
+.btn:hover, .form_block button:hover{
+    background-color: #acf13d;
+}
+
